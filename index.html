@@ -12,8 +12,23 @@
       <h4>Sua calculadora de Binário para Decimal</h4>
     </div>
     <div class="conversor">
-      <input id="entry" type="text" placeholder="Binário:" autofocus />
-      <button id="button" onclick="convert(entry.value)">
+      <input
+        id="entryBinary"
+        type="text"
+        placeholder="Binário p/ Decimal:"
+        autofocus
+      />
+      <button id="button" onclick="convertBinaryToDecimal(entryBinary.value)">
+        1 2 3 4<br />5 6 7 8
+      </button>
+
+      <input
+        id="entryDecimal"
+        type="text"
+        placeholder="Decimal p/ Binário:"
+        autofocus
+      />
+      <button id="button" onclick="convertDecimalToBinary(entryDecimal.value)">
         1 0 1 0<br />1 0 1 0
       </button>
     </div>
